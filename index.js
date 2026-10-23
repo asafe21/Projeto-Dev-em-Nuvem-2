@@ -45,7 +45,7 @@ function pagina(titulo, conteudo) {
 // Rota 1: página inicial
 app.get("/", function (req, res) {
   res.send(
-    pagina("Início", "<h1>Bem-vindo à Minha Loja!</h1><p>Aplicação Node.js + Express no ar.</p>")
+    pagina("Pagina Inicial", "<h1>Bem-vindo à Minha Loja!</h1><p>Aplicação Node.js + Express no ar.</p>")
   );
 });
 
